@@ -1,0 +1,30 @@
+{
+    "key": "utherium",
+    "category": "metal",
+    "primary": "6.5",
+    "secondary": "3.5",
+    "tertiary": "3.2",
+    "durability": "1279",
+    "integrityCost": "2",
+    "integrityGain": "7",
+    "magicCapacity": "78",
+    "toolLevel": "5",
+    "toolEfficiency": "8",
+    "improvements": {
+        "undergardenpatch/rotbane": 0
+    },
+    "tints": {
+        "glyph": "963a2a",
+        "texture": "963a2a"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "undergarden:utherium_ingot"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "key": "froststeel",
+    "category": "metal",
+    "primary": "6",
+    "secondary": "4",
+    "tertiary": "2.5",
+    "durability": "575",
+    "integrityCost": "2",
+    "integrityGain": "6",
+    "magicCapacity": "90",
+    "toolLevel": "4",
+    "toolEfficiency": "6",
+    "improvements": {
+        "undergardenpatch/frostbite": 0
+    },
+    "tints": {
+        "glyph": "7391b0",
+        "texture": "7391b0"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "undergarden:froststeel_ingot"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}

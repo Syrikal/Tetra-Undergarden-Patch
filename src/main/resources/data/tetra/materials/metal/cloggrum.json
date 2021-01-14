@@ -1,0 +1,27 @@
+{
+    "key": "cloggrum",
+    "category": "metal",
+    "primary": "7",
+    "secondary": "2.9",
+    "tertiary": "2",
+    "durability": "286",
+    "integrityCost": "3",
+    "integrityGain": "2",
+    "magicCapacity": "60",
+    "toolLevel": "3",
+    "toolEfficiency": "5",
+    "tints": {
+        "glyph": "66594e",
+        "texture": "66594e"
+    },
+    "textures": [
+        "metal",
+        "default"
+    ],
+    "material": {
+        "item": "undergarden:cloggrum_ingot"
+    },
+    "requiredTools": {
+        "hammer": 3
+    }
+}
