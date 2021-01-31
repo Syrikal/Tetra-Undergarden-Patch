@@ -1,0 +1,52 @@
+[
+  {
+    "predicate": {
+      "item": "undergarden:cloggrum_axe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/cloggrum"],
+      "double/head_right": ["double/butt_right", "butt/cloggrum"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "undergarden:froststeel_axe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/froststeel"],
+      "double/head_right": ["double/butt_right", "butt/froststeel"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:undergardenpatch/frostbite": 0
+    }
+  },
+  {
+    "predicate": {
+      "item": "undergarden:utheric_axe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/utherium"],
+      "double/head_right": ["double/butt_right", "butt/utherium"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:undergardenpatch/rotbane": 0
+    }
+  },
+  {
+    "predicate": {
+      "item": "undergarden:forgotten_axe"
+    },
+    "item": "tetra:modular_double",
+    "modules": {
+      "double/head_left": ["double/basic_axe_left", "basic_axe/forgotten"],
+      "double/head_right": ["double/butt_right", "butt/forgotten"],
+      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    }
+  }
+]

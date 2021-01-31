@@ -1,0 +1,45 @@
+[
+  {
+    "predicate": {
+      "item": "undergarden:cloggrum_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/cloggrum"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "undergarden:froststeel_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/froststeel"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/head:undergardenpatch/frostbite": 0
+    }
+  },
+  {
+    "predicate": {
+      "item": "undergarden:utheric_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/utherium"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  },
+  {
+    "predicate": {
+      "item": "undergarden:forgotten_shovel"
+    },
+    "item": "tetra:modular_single",
+    "modules": {
+      "single/head": ["single/basic_shovel", "basic_shovel/forgotten"],
+      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    }
+  }
+]
