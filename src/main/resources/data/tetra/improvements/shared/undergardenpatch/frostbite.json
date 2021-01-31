@@ -2,7 +2,33 @@
     {
         "key": "undergardenpatch/frostbite",
         "effects": {
-            "undergardenpatch:frostbite": 1
+            "undergardenpatch:frostbite": 4
+        }
+    },
+    {
+        "key": "undergardenpatch/frostbitesword",
+        "effects": {
+            "undergardenpatch:frostbite": 4
+        }
+    },
+
+    {
+        "key": "undergardenpatch/frostbiteshovel",
+        "effects": {
+            "undergardenpatch:frostbite": 2
+        }
+    },
+    {
+        "key": "undergardenpatch/frostbiteaxe",
+        "effects": {
+            "undergardenpatch:frostbite": 3
+        }
+    },
+
+    {
+        "key": "undergardenpatch/frostbitepick",
+        "effects": {
+            "undergardenpatch:frostbite": 2
         }
     }
 ]
