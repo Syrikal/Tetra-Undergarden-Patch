@@ -35,9 +35,13 @@ public class FrostbiteEffect {
             if (heldStack.getItem() instanceof ModularItem) {
                 ModularItem item = (ModularItem) heldStack.getItem();
                 int level = item.getEffectLevel(heldStack, frostbite);
+                double efficiency = item.getEffectEfficiency(heldStack, frostbite);
                 
-                if (level > 0) {
+                if (level > 0 && efficiency == 0) {
                     event.getEntityLiving().addPotionEffect(new EffectInstance(Effects.SLOWNESS, 600, level));
+                } else if (level > 0 && efficiency > 0) {
+                    event.getEntityLiving().addPotionEffect(new EffectInstance(Effects.SLOWNESS, 600, 4));
+                    //event.getEntityLiving().setFire(1); //A very visible way to check if the effect is activating properly
                 }
             }
         }

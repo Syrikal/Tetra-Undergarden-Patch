@@ -21,7 +21,8 @@
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/frostbite": 0
+      "double/head_left:undergardenpatch/frostbiteaxe": 0,
+      "double/head_right:undergardenpatch/frostbitebutt": 0
     }
   },
   {
@@ -35,7 +36,7 @@
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/rotbane": 0
+      "double/head_left:undergardenpatch/bloodlust": 0
     }
   },
   {

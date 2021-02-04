@@ -11,7 +11,7 @@
     "toolLevel": "4",
     "toolEfficiency": "6",
     "improvements": {
-        "undergardenpatch/frostbite": 0
+        "undergardenpatch/frostbitegeneric": 0
     },
     "tints": {
         "glyph": "7391b0",
