@@ -1,7 +1,7 @@
 This mod adds the following materials from the Undergarden to Tetra:
  - Cloggrum
  - Froststeel (including Frostbite ability)
- - Utherium (including Rotbane ability)
+ - Utherium (including Rotbane and Bloodlust abilities)
  - Forgotten Metal (including Threnody of the Deep ability)
  - Smogstem
  - Wigglewood
