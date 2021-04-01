@@ -11,7 +11,8 @@
     "toolLevel": "5",
     "toolEfficiency": "8",
     "improvements": {
-        "undergardenpatch/rotbane": 0
+        "undergardenpatch/rotbane": 0,
+        "undergardenpatch/bloodlust": 0
     },
     "tints": {
         "glyph": "963a2a",
