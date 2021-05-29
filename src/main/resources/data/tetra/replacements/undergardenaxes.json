@@ -21,8 +21,8 @@
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/frostbitetwo": 0,
-      "double/head_right:undergardenpatch/frostbiteone": 0
+      "double/head_left:undergardenpatch/frostbite": 0,
+      "double/head_right:undergardenpatch/frostbite": 0
     }
   },
   {

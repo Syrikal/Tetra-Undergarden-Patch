@@ -15,7 +15,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "com.wynprice.cursemaven"
 
-version = '1.2.0'
+version = '1.2.1'
 group = 'com.syric.undergardenpatch' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Undergarden-Tetra Patch'
 
@@ -69,11 +69,11 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.4-35.1.0'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
 
-    compile fg.deobf("curse.maven:mgui:3104239")
-    compile fg.deobf("curse.maven:tetra:3147835")
-    compile fg.deobf("curse.maven:the-undergarden:3155605")
+    compile fg.deobf("curse.maven:mgui:3291267")
+    compile fg.deobf("curse.maven:tetra:3297566")
+    compile fg.deobf("curse.maven:the-undergarden:3283669")
 }
 
 jar {
@@ -81,7 +81,7 @@ jar {
         attributes([
             "Specification-Title": "Undergarden Tetra Patch",
             "Specification-Vendor": "Syric",
-            "Specification-Version": "1.1.2", // We are version 1 of ourselves
+            "Specification-Version": "1.1.3", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
             "Implementation-Vendor" :"examplemodsareus",
