@@ -1,11 +1,11 @@
 modLoader="javafml" #mandatory
-loaderVersion="[35,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="MIT"
 
 [[mods]] #mandatory
 modId="undergardenpatch" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="Undergarden/Tetra Patch" #mandatory
+displayName="Undergarden-Tetra Patch" #mandatory
 credits="Thanks for this mod goes to mickelus of Tetra and quek of the Undergarden, for writing all the code I Frankensteined together, and for the help they gave along the way." #optional
 authors="Syric" #optional
 description='''
@@ -15,25 +15,25 @@ This mod adds Undergarden materials to Tetra, including their effects. Requires 
 [[dependencies.undergardenpatch]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[35,)" #mandatory
+    versionRange="[40,)" #mandatory
     ordering="NONE"
     side="BOTH"
 # Here's another dependency
 [[dependencies.undergardenpatch]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.16.4,1.17)"
+    versionRange="[1.18,1.19)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.undergardenpatch]]
     modId="tetra"
     mandatory=true
-    versionRange="[3.4.0,)"
+    versionRange="[4.10.0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.undergardenpatch]]
     modId="undergarden"
     mandatory=true
-    versionRange="[0.4.0,)"
+    versionRange="[0.7.1,)"
     ordering="NONE"
     side="BOTH"
