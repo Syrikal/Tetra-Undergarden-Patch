@@ -22,18 +22,6 @@ This mod adds Undergarden materials to Tetra, including their effects. Requires 
 [[dependencies.undergardenpatch]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18,1.19)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.undergardenpatch]]
-    modId="tetra"
-    mandatory=true
-    versionRange="[4.10.0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.undergardenpatch]]
-    modId="undergarden"
-    mandatory=true
-    versionRange="[0.7.1,)"
+    versionRange="[1.18.2,1.19)"
     ordering="NONE"
     side="BOTH"

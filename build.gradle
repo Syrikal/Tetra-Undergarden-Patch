@@ -9,14 +9,12 @@ buildscript {
     }
     dependencies {
         classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
-        classpath "com.wynprice.cursemaven:CurseMaven:2.1.1"
         classpath 'org.spongepowered:mixingradle:0.7-SNAPSHOT'
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-apply plugin: "com.wynprice.cursemaven"
 apply plugin: 'org.spongepowered.mixin'
 
 
@@ -152,7 +150,8 @@ repositories {
 
 mixin {
     add sourceSets.main, "main.refmap.json"
-    add sourceSets.main, "cavesandcliffs.refmap.json"
+    add sourceSets.main, "tetra.refmap.json"
+    add sourceSets.main, "undergarden.refmap.json"
 }
 
 dependencies {
