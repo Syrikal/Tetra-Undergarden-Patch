@@ -35,7 +35,7 @@ public class ThrenodyEffect {
                 int level = item.getEffectLevel(heldStack, threnody);
 
                 if (level > 0 && Objects.requireNonNull(event.getEntityLiving().getType().getRegistryName()).getNamespace().equals("undergarden") && event.getEntityLiving().canChangeDimensions()) {
-                    event.setAmount(damage * 1.4F);
+                    event.setAmount(damage * 2F);
                 }
             }
         }

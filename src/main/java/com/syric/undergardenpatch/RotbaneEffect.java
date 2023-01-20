@@ -35,7 +35,7 @@ public class RotbaneEffect {
 
                 if (level > 0) {
                     if(event.getEntityLiving().getType().is(UGTags.Entities.ROTSPAWN)) {
-                        event.setAmount(damage * 1.4F);
+                        event.setAmount(damage * 1.5F);
                         //event.getEntityLiving().setFire(1); //A very visible way to check if the effect is activating properly
                     }
                 }
