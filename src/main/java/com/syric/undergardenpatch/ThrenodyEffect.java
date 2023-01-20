@@ -1,7 +1,6 @@
-package com.undergardenpatch.undergardenpatch;
+package com.syric.undergardenpatch;
 
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
@@ -9,12 +8,14 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import se.mickelus.tetra.effect.ItemEffect;
 import se.mickelus.tetra.items.modular.ModularItem;
 
+import java.util.Objects;
+
 
 /**
- * Implementation of an effect which deals 1.4x damage to Rotspawn.
+ * Implementation of an effect which deals .
  */
-public class BloodlustEffect {
-    private static final ItemEffect bloodlust = ItemEffect.get("undergardenpatch:bloodlust");
+public class ThrenodyEffect {
+    private static final ItemEffect threnody = ItemEffect.get("undergardenpatch:threnody");
 
     /**
      * Event handler which checks if the mainhand item has our item effect
@@ -22,22 +23,19 @@ public class BloodlustEffect {
      */
     @SubscribeEvent
     public void attackEvent(LivingHurtEvent event) {
-        Entity source = event.getSource().getTrueSource();
+        Entity source = event.getSource().getEntity();
         float damage = event.getAmount();
 
         if (source instanceof PlayerEntity) {
             PlayerEntity player = (PlayerEntity) source;
-            ItemStack heldStack = player.getHeldItemMainhand();
+            ItemStack heldStack = player.getMainHandItem();
 
             if (heldStack.getItem() instanceof ModularItem) {
                 ModularItem item = (ModularItem) heldStack.getItem();
-                int level = item.getEffectLevel(heldStack, bloodlust);
+                int level = item.getEffectLevel(heldStack, threnody);
 
-                if (level > 0) {
-                    if(event.getEntityLiving().getClassification(false) == EntityClassification.CREATURE) {
-                        event.setAmount(damage * 1.5F);
-                        //event.getEntityLiving().setFire(1); //A very visible way to check if the effect is activating properly
-                    }
+                if (level > 0 && Objects.requireNonNull(event.getEntityLiving().getType().getRegistryName()).getNamespace().equals("undergarden") && event.getEntityLiving().canChangeDimensions()) {
+                    event.setAmount(damage * 1.4F);
                 }
             }
         }

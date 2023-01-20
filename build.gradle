@@ -6,24 +6,23 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '5.1.+', changing: true
         classpath "com.wynprice.cursemaven:CurseMaven:2.1.1"
     }
 }
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
-apply plugin: "com.wynprice.cursemaven"
 
 version = '1.2.1'
 group = 'com.syric.undergardenpatch' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Undergarden-Tetra Patch'
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
 println('Java: ' + System.getProperty('java.version') + ' JVM: ' + System.getProperty('java.vm.version') + '(' + System.getProperty('java.vendor') + ') Arch: ' + System.getProperty('os.arch'))
 minecraft {
-    mappings channel: 'snapshot', version: '20201028-1.16.3'
+    mappings channel: 'official', version: '1.16.5'
 
     runs {
         client {
@@ -67,13 +66,23 @@ minecraft {
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
+repositories {
+    maven {
+        name = "cursemaven"
+        url = "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    mavenCentral()
+}
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.1.0'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.34'
 
-    compile fg.deobf("curse.maven:mgui:3291267")
-    compile fg.deobf("curse.maven:tetra:3297566")
-    compile fg.deobf("curse.maven:the-undergarden:3283669")
+    implementation fg.deobf("curse.maven:mutil-351914:3456505")
+    implementation fg.deobf("curse.maven:tetra-289712:3297566")
+    implementation fg.deobf("curse.maven:the-undergarden-379849:3283669")
 }
 
 jar {
