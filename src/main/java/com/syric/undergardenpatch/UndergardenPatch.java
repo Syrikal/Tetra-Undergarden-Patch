@@ -5,6 +5,9 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod("undergardenpatch")
 public class UndergardenPatch {
+    public static final String MODID = "undergardenpatch";
+
+
     public UndergardenPatch() {
         MinecraftForge.EVENT_BUS.register(this);
 //        MinecraftForge.EVENT_BUS.register(new BloodlustEffect());
