@@ -19,7 +19,7 @@
       "single/handle": ["single/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
-      "single/head:undergardenpatch/frostbite": 0
+      "single/head:undergardenpatch/frostnip": 0
     }
   },
   {
@@ -40,6 +40,9 @@
     "modules": {
       "single/head": ["single/basic_shovel", "basic_shovel/forgotten"],
       "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/head:undergardenpatch/undermine": 0
     }
   }
 ]

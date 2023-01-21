@@ -11,12 +11,11 @@
     "toolLevel": "5",
     "toolEfficiency": "8",
     "improvements": {
-        "undergardenpatch/rotbane": 0,
-        "undergardenpatch/bloodlust": 0
+        "undergardenpatch/rotbane": 0
     },
     "tints": {
-        "glyph": "963a2a",
-        "texture": "963a2a"
+        "glyph": "d76559",
+        "texture": "d76559"
     },
     "textures": [
         "metal",

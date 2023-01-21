@@ -3,6 +3,7 @@ package com.syric.undergardenpatch;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.text.StringTextComponent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import se.mickelus.tetra.effect.ItemEffect;
@@ -15,7 +16,7 @@ import java.util.Objects;
  * Implementation of an effect which deals .
  */
 public class ThrenodyEffect {
-    private static final ItemEffect threnody = ItemEffect.get("undergardenpatch:threnody");
+    public static final ItemEffect threnody = ItemEffect.get("undergardenpatch:threnody");
 
     /**
      * Event handler which checks if the mainhand item has our item effect
@@ -36,6 +37,7 @@ public class ThrenodyEffect {
 
                 if (level > 0 && Objects.requireNonNull(event.getEntityLiving().getType().getRegistryName()).getNamespace().equals("undergarden") && event.getEntityLiving().canChangeDimensions()) {
                     event.setAmount(damage * 2F);
+//                    player.sendMessage(new StringTextComponent("2x Damage to Undergarden Denizens"), player.getUUID());
                 }
             }
         }

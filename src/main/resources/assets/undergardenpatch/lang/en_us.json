@@ -23,12 +23,14 @@
     "tetra.material.shiverstone.prefix": "Shiverstone",
 
 
-    "tetra.improvement.undergardenpatch/bloodlust.name": "Bloodlust",
-    "tetra.improvement.undergardenpatch/bloodlust.description": "Utherium axes deal additional damage to passive animals.",
     "tetra.improvement.undergardenpatch/frostbite.name": "Frostbite",
     "tetra.improvement.undergardenpatch/frostbite.description": "The intense cold of Froststeel slows enemies struck by it.",
+    "tetra.improvement.undergardenpatch/frostnip.name": "Frostnip",
+    "tetra.improvement.undergardenpatch/frostnip.description": "The intense cold of Froststeel slows enemies struck by it.",
     "tetra.improvement.undergardenpatch/rotbane.name": "Rotbane",
     "tetra.improvement.undergardenpatch/rotbane.description": "Utherium weapons deal additional damage to Rotspawn.",
     "tetra.improvement.undergardenpatch/threnody.name": "Threnody of the Deep",
-    "tetra.improvement.undergardenpatch/threnody.description": "Forgotten weapons deal double damage to denizens of the Undergarden."
+    "tetra.improvement.undergardenpatch/threnody.description": "Forgotten weapons deal double damage to denizens of the Undergarden.",
+    "tetra.improvement.undergardenpatch/undermine.name": "Undermine",
+    "tetra.improvement.undergardenpatch/undermine.description": "Forgotten tools mine Undergarden blocks faster."
 }

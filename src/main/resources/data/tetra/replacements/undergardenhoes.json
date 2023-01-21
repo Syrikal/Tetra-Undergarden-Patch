@@ -41,6 +41,9 @@
       "double/head_left": ["double/hoe_left", "hoe/forgotten"],
       "double/head_right": ["double/butt_right", "butt/forgotten"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:undergardenpatch/undermine": 0
     }
   }
 ]

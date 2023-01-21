@@ -1,6 +1,7 @@
 {
   "replace": false,
   "improvements": [
-    "tetra:undergarden/frostbiteone"
+    "tetra:undergarden/frostnip",
+    "tetra:undergarden/undermine"
   ]
 }

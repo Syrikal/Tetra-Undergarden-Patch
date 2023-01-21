@@ -14,7 +14,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.2.1'
+version = '1.3.0-1.16.5'
 group = 'com.syric.undergardenpatch' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'Undergarden-Tetra Patch'
 
@@ -82,18 +82,18 @@ dependencies {
 
     implementation fg.deobf("curse.maven:mutil-351914:3456505")
     implementation fg.deobf("curse.maven:tetra-289712:3297566")
-    implementation fg.deobf("curse.maven:the-undergarden-379849:3283669")
+    implementation fg.deobf("curse.maven:the-undergarden-379849:3477594")
 }
 
 jar {
     manifest {
         attributes([
-            "Specification-Title": "Undergarden Tetra Patch",
+            "Specification-Title": "Tetra-Undergarden Patch",
             "Specification-Vendor": "Syric",
             "Specification-Version": "1.1.3", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"examplemodsareus",
+            "Implementation-Vendor" :"Syric",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

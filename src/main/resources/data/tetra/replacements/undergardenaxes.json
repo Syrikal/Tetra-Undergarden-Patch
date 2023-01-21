@@ -21,8 +21,7 @@
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/frostbite": 0,
-      "double/head_right:undergardenpatch/frostbite": 0
+      "double/head_left:undergardenpatch/frostbite": 0
     }
   },
   {
@@ -36,7 +35,7 @@
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/bloodlust": 0
+      "double/head_left:undergardenpatch/rotbane": 0
     }
   },
   {
@@ -48,6 +47,10 @@
       "double/head_left": ["double/basic_axe_left", "basic_axe/forgotten"],
       "double/head_right": ["double/butt_right", "butt/forgotten"],
       "double/handle": ["double/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "double/head_left:undergardenpatch/threnody": 0,
+      "double/head_left:undergardenpatch/undermine": 0
     }
   }
 ]
