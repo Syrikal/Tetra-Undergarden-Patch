@@ -1,0 +1,8 @@
+[
+    {
+        "key": "basic_handle/corroded_grip",
+        "models": [{
+            "location": "tetra:items/module/single/handle/improvements/corroded_grip"
+        }]
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "key": "basic_handle/echoing_grip",
+        "models": [{
+            "location": "tetra:items/module/single/handle/improvements/echoing_grip"
+        }]
+    }
+]

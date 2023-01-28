@@ -20,8 +20,11 @@ public class UndergardenPatch {
         MinecraftForge.EVENT_BUS.register(new FrostbiteEffect());
         MinecraftForge.EVENT_BUS.register(new FrostnipEffect());
         MinecraftForge.EVENT_BUS.register(new RotbaneEffect());
+        MinecraftForge.EVENT_BUS.register(new RotbaneLiteEffect());
         MinecraftForge.EVENT_BUS.register(new ThrenodyEffect());
+        MinecraftForge.EVENT_BUS.register(new ThrenodyLiteEffect());
         MinecraftForge.EVENT_BUS.register(new UndermineEffect());
+        MinecraftForge.EVENT_BUS.register(new UndermineLiteEffect());
 
 //        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 

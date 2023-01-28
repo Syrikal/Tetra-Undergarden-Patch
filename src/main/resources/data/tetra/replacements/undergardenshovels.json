@@ -7,6 +7,9 @@
     "modules": {
       "single/head": ["single/basic_shovel", "basic_shovel/cloggrum"],
       "single/handle": ["single/basic_handle", "basic_handle/stick"]
+    },
+    "improvements": {
+      "single/handle:basic_handle/sturdy_grip": 0
     }
   },
   {
@@ -16,10 +19,11 @@
     "item": "tetra:modular_single",
     "modules": {
       "single/head": ["single/basic_shovel", "basic_shovel/froststeel"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+      "single/handle": ["single/basic_handle", "basic_handle/smogstem"]
     },
     "improvements": {
-      "single/head:undergardenpatch/frostnip": 0
+      "single/head:undergardenpatch/frostnip": 0,
+      "single/handle:basic_handle/frosted_grip": 0
     }
   },
   {
@@ -29,7 +33,10 @@
     "item": "tetra:modular_single",
     "modules": {
       "single/head": ["single/basic_shovel", "basic_shovel/utherium"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+      "single/handle": ["single/basic_handle", "basic_handle/smogstem"]
+    },
+    "improvements": {
+      "single/handle:basic_handle/corroded_grip": 0
     }
   },
   {
@@ -39,10 +46,11 @@
     "item": "tetra:modular_single",
     "modules": {
       "single/head": ["single/basic_shovel", "basic_shovel/forgotten"],
-      "single/handle": ["single/basic_handle", "basic_handle/stick"]
+      "single/handle": ["single/basic_handle", "basic_handle/smogstem"]
     },
     "improvements": {
-      "single/head:undergardenpatch/undermine": 0
+      "single/head:undergardenpatch/undermine": 0,
+      "single/handle:basic_handle/echoing_grip": 0
     }
   }
 ]

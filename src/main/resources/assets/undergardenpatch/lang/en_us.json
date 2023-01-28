@@ -36,5 +36,43 @@
     "tetra.improvement.undergardenpatch/forgottenbattleaxe.name": "Battleaxe",
     "tetra.improvement.undergardenpatch/forgottenbattleaxe.description": "Undergarden battleaxes are potent weapons.",
     "tetra.improvement.undergardenpatch/cloggrumbattleaxe.name": "Battleaxe",
-    "tetra.improvement.undergardenpatch/cloggrumbattleaxe.description": "Undergarden battleaxes are potent weapons."
+    "tetra.improvement.undergardenpatch/cloggrumbattleaxe.description": "Undergarden battleaxes are potent weapons.",
+
+
+    "tetra.improvement.basic_handle/frosted_grip.name": "Frosted Grip",
+    "tetra.improvement.basic_handle/frosted_grip.description": "Lightly frosted",
+    "tetra.improvement.basic_hilt/frosted_grip.name": "Frosted Grip",
+    "tetra.improvement.basic_hilt/frosted_grip.description": "Lightly frosted",
+
+    "tetra.improvement.basic_handle/corroded_grip.name": "Corroded Grip",
+    "tetra.improvement.basic_handle/corroded_grip.description": "Lightly corroded",
+    "tetra.improvement.basic_hilt/corroded_grip.name": "Corroded Grip",
+    "tetra.improvement.basic_hilt/corroded_grip.description": "Lightly corroded",
+
+    "tetra.improvement.basic_handle/echoing_grip.name": "Echoing Grip",
+    "tetra.improvement.basic_handle/echoing_grip.description": "Softly echoing",
+    "tetra.improvement.basic_handle/echoing_haft.name": "Echoing Haft",
+    "tetra.improvement.basic_handle/echoing_haft.description": "Softly echoing",
+    "tetra.improvement.basic_hilt/echoing_grip.name": "Echoing Grip",
+    "tetra.improvement.basic_hilt/echoing_grip.description": "Softly echoing",
+
+    "tetra.improvement.basic_handle/sturdy_grip.name": "Sturdy Grip",
+    "tetra.improvement.basic_handle/sturdy_grip.description": "Tough and resilient",
+    "tetra.improvement.basic_handle/sturdy_haft.name": "Sturdy Haft",
+    "tetra.improvement.basic_handle/sturdy_haft.description": "Tough and resilient",
+    "tetra.improvement.basic_hilt/sturdy_grip.name": "Sturdy Grip",
+    "tetra.improvement.basic_hilt/sturdy_grip.description": "Tough and resilient",
+
+
+    "tetra.variant.double_socket/froststeel": "Socket [§9Froststeel§f]",
+    "tetra.variant.double_socket/utherium": "Socket [§cUtherium§f]",
+    "tetra.variant.double_socket/forgotten": "Socket [§3Forgotten§f]",
+
+    "tetra.variant.single_socket/froststeel": "Socket [§9Froststeel§f]",
+    "tetra.variant.single_socket/utherium": "Socket [§cUtherium§f]",
+    "tetra.variant.single_socket/forgotten": "Socket [§3Forgotten§f]",
+
+    "tetra.variant.sword_socket/froststeel": "Socket [§9Froststeel§f]",
+    "tetra.variant.sword_socket/utherium": "Socket [§cUtherium§f]",
+    "tetra.variant.sword_socket/forgotten": "Socket [§3Forgotten§f]"
 }

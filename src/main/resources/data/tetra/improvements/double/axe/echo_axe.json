@@ -1,0 +1,8 @@
+[
+    {
+        "key": "elaborate/echo_axe",
+        "models": [{
+            "location": "tetra:items/module/double/head/basic_axe/echo"
+        }]
+    }
+]

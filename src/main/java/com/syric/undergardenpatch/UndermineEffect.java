@@ -10,7 +10,7 @@ import se.mickelus.tetra.items.modular.ModularItem;
 import java.util.Objects;
 
 public class UndermineEffect {
-    private static final ItemEffect undermine = ItemEffect.get("undergardenpatch:undermine");
+    public static final ItemEffect undermine = ItemEffect.get("undergardenpatch:undermine");
 
     /**
      * Event handler which checks if the mainhand item has our item effect

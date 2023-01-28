@@ -14,7 +14,7 @@ import se.mickelus.tetra.items.modular.ModularItem;
  * Implementation of an effect which deals 1.4x damage to Rotspawn.
  */
 public class RotbaneEffect {
-    private static final ItemEffect rotbane = ItemEffect.get("undergardenpatch:rotbane");
+    public static final ItemEffect rotbane = ItemEffect.get("undergardenpatch:rotbane");
 
     /**
      * Event handler which checks if the mainhand item has our item effect

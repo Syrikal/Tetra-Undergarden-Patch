@@ -7,7 +7,10 @@
     "modules": {
       "double/head_left": ["double/hoe_left", "hoe/cloggrum"],
       "double/head_right": ["double/butt_right", "butt/cloggrum"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
+    },
+    "improvements": {
+      "double/handle:basic_handle/sturdy_grip": 0
     }
   },
   {
@@ -18,7 +21,10 @@
     "modules": {
       "double/head_left": ["double/hoe_left", "hoe/froststeel"],
       "double/head_right": ["double/butt_right", "butt/froststeel"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
+    },
+    "improvements": {
+      "double/handle:basic_handle/frosted_grip": 0
     }
   },
   {
@@ -29,7 +35,10 @@
     "modules": {
       "double/head_left": ["double/hoe_left", "hoe/utherium"],
       "double/head_right": ["double/butt_right", "butt/utherium"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
+    },
+    "improvements": {
+      "double/handle:basic_handle/corroded_grip": 0
     }
   },
   {
@@ -40,10 +49,11 @@
     "modules": {
       "double/head_left": ["double/hoe_left", "hoe/forgotten"],
       "double/head_right": ["double/butt_right", "butt/forgotten"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/undermine": 0
+      "double/head_left:undergardenpatch/undermine": 0,
+      "double/handle:basic_handle/echoing_grip": 0
     }
   }
 ]
