@@ -32,5 +32,9 @@
     "tetra.improvement.undergardenpatch/threnody.name": "Threnody of the Deep",
     "tetra.improvement.undergardenpatch/threnody.description": "Forgotten weapons deal double damage to denizens of the Undergarden.",
     "tetra.improvement.undergardenpatch/undermine.name": "Undermine",
-    "tetra.improvement.undergardenpatch/undermine.description": "Forgotten tools mine Undergarden blocks faster."
+    "tetra.improvement.undergardenpatch/undermine.description": "Forgotten tools mine Undergarden blocks faster.",
+    "tetra.improvement.undergardenpatch/forgottenbattleaxe.name": "Battleaxe",
+    "tetra.improvement.undergardenpatch/forgottenbattleaxe.description": "Undergarden battleaxes are potent weapons.",
+    "tetra.improvement.undergardenpatch/cloggrumbattleaxe.name": "Battleaxe",
+    "tetra.improvement.undergardenpatch/cloggrumbattleaxe.description": "Undergarden battleaxes are potent weapons."
 }
