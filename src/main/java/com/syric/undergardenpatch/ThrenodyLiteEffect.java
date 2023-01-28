@@ -3,19 +3,19 @@ package com.syric.undergardenpatch;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.text.StringTextComponent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import quek.undergarden.registry.UGTags;
 import se.mickelus.tetra.effect.ItemEffect;
 import se.mickelus.tetra.items.modular.ModularItem;
 
+import java.util.Objects;
+
 
 /**
- * Implementation of an effect which deals 1.4x damage to Rotspawn.
+ * Implementation of an effect which deals .
  */
-public class RotbaneEffect {
-    public static final ItemEffect rotbane = ItemEffect.get("undergardenpatch:rotbane");
+public class ThrenodyLiteEffect {
+    public static final ItemEffect threnody_lite = ItemEffect.get("undergardenpatch:threnody_lite");
 
     /**
      * Event handler which checks if the mainhand item has our item effect
@@ -32,15 +32,13 @@ public class RotbaneEffect {
 
             if (heldStack.getItem() instanceof ModularItem) {
                 ModularItem item = (ModularItem) heldStack.getItem();
-                int level = item.getEffectLevel(heldStack, rotbane);
+                int level = item.getEffectLevel(heldStack, threnody_lite);
                 boolean forgor = item.getEffectLevel(heldStack, ThrenodyEffect.threnody) > 0;
+                boolean rotbane = item.getEffectLevel(heldStack, RotbaneEffect.rotbane) > 0;
 
-                if (level > 0 && !forgor) {
-                    if(event.getEntityLiving().getType().is(UGTags.Entities.ROTSPAWN)) {
-                        event.setAmount(damage * 1.5F);
-//                        player.sendMessage(new StringTextComponent("150% damage to Rotspawn"), player.getUUID());
-                        //event.getEntityLiving().setFire(1); //A very visible way to check if the effect is activating properly
-                    }
+                if (level > 0 && !forgor && !rotbane && Objects.requireNonNull(event.getEntityLiving().getType().getRegistryName()).getNamespace().equals("undergarden") && event.getEntityLiving().canChangeDimensions()) {
+                    event.setAmount(damage * 1.5F);
+//                    player.sendMessage(new StringTextComponent("2x Damage to Undergarden Denizens"), player.getUUID());
                 }
             }
         }

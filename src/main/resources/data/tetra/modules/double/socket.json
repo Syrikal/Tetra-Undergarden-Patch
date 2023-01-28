@@ -1,0 +1,57 @@
+{
+    "replace": false,
+    "variants": [
+        {
+            "key": "double_socket/froststeel",
+            "category": "metal",
+            "integrity": -1,
+            "effects": {
+                "undergardenpatch:frostnip": 1
+            },
+            "glyph": {
+                "tint": "6988b0",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "6988b0"
+            }]
+        },
+        {
+            "key": "double_socket/forgotten",
+            "category": "metal",
+            "integrity": -1,
+            "effects": {
+                "undergardenpatch:threnody_lite": 1,
+                "undergardenpatch:undermine_lite": 1
+            },
+            "glyph": {
+                "tint": "28ab8a",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "28ab8a"
+            }]
+        },
+        {
+            "key": "double_socket/utherium",
+            "category": "metal",
+            "integrity": -1,
+            "effects": {
+                "undergardenpatch/rotbane_lite": 1
+            },
+            "glyph": {
+                "tint": "9c3832",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [{
+                "location": "tetra:items/module/double/binding/socket/default",
+                "tint": "9c3832"
+            }]
+        }
+    ]
+}

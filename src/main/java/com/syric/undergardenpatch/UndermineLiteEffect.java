@@ -9,8 +9,8 @@ import se.mickelus.tetra.items.modular.ModularItem;
 
 import java.util.Objects;
 
-public class UndermineEffect {
-    public static final ItemEffect undermine = ItemEffect.get("undergardenpatch:undermine");
+public class UndermineLiteEffect {
+    private static final ItemEffect undermine_lite = ItemEffect.get("undergardenpatch:undermine_lite");
 
     /**
      * Event handler which checks if the mainhand item has our item effect
@@ -22,11 +22,12 @@ public class UndermineEffect {
         ItemStack heldStack = player.getMainHandItem();
         if (heldStack.getItem() instanceof ModularItem) {
             ModularItem item = (ModularItem) heldStack.getItem();
-            int level = item.getEffectLevel(heldStack, undermine);
+            int level = item.getEffectLevel(heldStack, undermine_lite);
+            boolean forgor = item.getEffectLevel(heldStack, UndermineEffect.undermine) > 0;
 
-            if (level > 0) {
+            if (level > 0 && !forgor) {
                 if (Objects.requireNonNull(event.getState().getBlock().getRegistryName()).getNamespace().equals("undergarden")) {
-                    event.setNewSpeed(event.getOriginalSpeed() * 1.5F);
+                    event.setNewSpeed(event.getOriginalSpeed() * 1.25F);
                 }
             }
         }

@@ -61,6 +61,18 @@
     "tetra.improvement.basic_handle/sturdy_haft.name": "Sturdy Haft",
     "tetra.improvement.basic_handle/sturdy_haft.description": "Tough and resilient",
     "tetra.improvement.basic_hilt/sturdy_grip.name": "Sturdy Grip",
-    "tetra.improvement.basic_hilt/sturdy_grip.description": "Tough and resilient"
+    "tetra.improvement.basic_hilt/sturdy_grip.description": "Tough and resilient",
 
+
+    "tetra.variant.double_socket/froststeel": "Socket [§9Froststeel§f]",
+    "tetra.variant.double_socket/utherium": "Socket [§cUtherium§f]",
+    "tetra.variant.double_socket/forgotten": "Socket [§3Forgotten§f]",
+
+    "tetra.variant.single_socket/froststeel": "Socket [§9Froststeel§f]",
+    "tetra.variant.single_socket/utherium": "Socket [§cUtherium§f]",
+    "tetra.variant.single_socket/forgotten": "Socket [§3Forgotten§f]",
+
+    "tetra.variant.sword_socket/froststeel": "Socket [§9Froststeel§f]",
+    "tetra.variant.sword_socket/utherium": "Socket [§cUtherium§f]",
+    "tetra.variant.sword_socket/forgotten": "Socket [§3Forgotten§f]"
 }
