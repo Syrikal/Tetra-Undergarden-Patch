@@ -1,7 +1,7 @@
 [
   {
     "predicate": {
-      "item": "undergarden:cloggrum_sword"
+      "items": ["undergarden:cloggrum_sword"]
     },
     "item": "tetra:modular_sword",
     "modules": {
@@ -13,7 +13,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:froststeel_sword"
+      "items": ["undergarden:froststeel_sword"]
     },
     "item": "tetra:modular_sword",
     "modules": {
@@ -28,7 +28,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:utheric_sword"
+      "items": ["undergarden:utherium_sword"]
     },
     "item": "tetra:modular_sword",
     "modules": {
@@ -43,7 +43,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:forgotten_sword"
+      "items": ["undergarden:forgotten_sword"]
     },
     "item": "tetra:modular_sword",
     "modules": {

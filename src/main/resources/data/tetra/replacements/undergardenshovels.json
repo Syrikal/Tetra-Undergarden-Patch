@@ -1,7 +1,7 @@
 [
   {
     "predicate": {
-      "item": "undergarden:cloggrum_shovel"
+      "items": ["undergarden:cloggrum_shovel"]
     },
     "item": "tetra:modular_single",
     "modules": {
@@ -11,7 +11,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:froststeel_shovel"
+      "items": ["undergarden:froststeel_shovel"]
     },
     "item": "tetra:modular_single",
     "modules": {
@@ -24,7 +24,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:utheric_shovel"
+      "items": ["undergarden:utherium_shovel"]
     },
     "item": "tetra:modular_single",
     "modules": {
@@ -34,7 +34,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:forgotten_shovel"
+      "items": ["undergarden:forgotten_shovel"]
     },
     "item": "tetra:modular_single",
     "modules": {

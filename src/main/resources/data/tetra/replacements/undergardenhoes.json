@@ -1,7 +1,7 @@
 [
   {
     "predicate": {
-      "item": "undergarden:cloggrum_hoe"
+      "items": ["undergarden:cloggrum_hoe"]
     },
     "item": "tetra:modular_double",
     "modules": {
@@ -12,7 +12,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:froststeel_hoe"
+      "items": ["undergarden:froststeel_hoe"]
     },
     "item": "tetra:modular_double",
     "modules": {
@@ -23,7 +23,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:utheric_hoe"
+      "items": ["undergarden:utherium_hoe"]
     },
     "item": "tetra:modular_double",
     "modules": {
@@ -34,7 +34,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:forgotten_hoe"
+      "items": ["undergarden:forgotten_hoe"]
     },
     "item": "tetra:modular_double",
     "modules": {

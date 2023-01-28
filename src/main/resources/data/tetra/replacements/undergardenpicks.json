@@ -1,7 +1,7 @@
 [
   {
     "predicate": {
-      "item": "undergarden:cloggrum_pickaxe"
+      "items": ["undergarden:cloggrum_pickaxe"]
     },
     "item": "tetra:modular_double",
     "modules": {
@@ -12,7 +12,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:froststeel_pickaxe"
+      "items": ["undergarden:froststeel_pickaxe"]
     },
     "item": "tetra:modular_double",
     "modules": {
@@ -27,7 +27,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:utheric_pickaxe"
+      "items": ["undergarden:utherium_pickaxe"]
     },
     "item": "tetra:modular_double",
     "modules": {
@@ -38,7 +38,7 @@
   },
   {
     "predicate": {
-      "item": "undergarden:forgotten_pickaxe"
+      "items": ["undergarden:forgotten_pickaxe"]
     },
     "item": "tetra:modular_double",
     "modules": {
