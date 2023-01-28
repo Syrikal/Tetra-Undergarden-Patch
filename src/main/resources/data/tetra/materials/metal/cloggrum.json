@@ -1,14 +1,14 @@
 {
     "key": "cloggrum",
     "category": "metal",
-    "primary": 7,
+    "primary": 6,
     "secondary": 2.9,
     "tertiary": 2,
     "durability": 286,
     "integrityCost": 2,
     "integrityGain": 2,
-    "magicCapacity": 60,
-    "toolLevel": "minecraft:diamond",
+    "magicCapacity": 48,
+    "toolLevel": "minecraft:iron",
     "toolEfficiency": 6,
     "tints": {
         "glyph": "7b6959",
@@ -22,6 +22,6 @@
         "items": ["undergarden:cloggrum_ingot"]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer_dig": "minecraft:gold"
     }
 }

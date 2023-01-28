@@ -26,6 +26,7 @@ public class UndermineEffect {
             if (level > 0) {
                 if (Objects.requireNonNull(event.getState().getBlock().getRegistryName()).getNamespace().equals("undergarden")) {
                     event.setNewSpeed(event.getOriginalSpeed() * 1.5F);
+//                    UndergardenPatch.LOGGER.info("Set dig speed to: " + event.getOriginalSpeed() * 1.5F);
                 }
             }
         }

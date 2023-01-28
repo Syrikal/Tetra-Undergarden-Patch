@@ -7,9 +7,9 @@
     "durability": 1279,
     "integrityCost": 2,
     "integrityGain": 7,
-    "magicCapacity": 78,
-    "toolLevel": "minecraft:netherite",
-    "toolEfficiency": 8,
+    "magicCapacity": 102,
+    "toolLevel": "minecraft:diamond",
+    "toolEfficiency": 8.5,
     "improvements": {
         "undergardenpatch/rotbane": 0
     },

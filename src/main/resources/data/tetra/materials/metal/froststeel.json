@@ -1,15 +1,15 @@
 {
     "key": "froststeel",
     "category": "metal",
-    "primary": 6,
+    "primary": 5,
     "secondary": 4,
     "tertiary": 2.5,
     "durability": 575,
     "integrityCost": 2,
     "integrityGain": 6,
-    "magicCapacity": 90,
-    "toolLevel": "minecraft:diamond",
-    "toolEfficiency": 6,
+    "magicCapacity": 120,
+    "toolLevel": "minecraft:iron",
+    "toolEfficiency": 7,
     "improvements": {
         "undergardenpatch/frostbite": 0,
         "undergardenpatch/frostnip": 0
@@ -26,6 +26,6 @@
         "items": ["undergarden:froststeel_ingot"]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
+        "hammer_dig": "minecraft:gold"
     }
 }
