@@ -1,11 +1,10 @@
 package com.syric.undergardenpatch;
 
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
-import net.minecraft.potion.EffectInstance;
-import net.minecraft.potion.Effects;
-import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import se.mickelus.tetra.effect.ItemEffect;
@@ -25,17 +24,15 @@ public class FrostnipEffect {
     public void attackEvent(LivingHurtEvent event) {
         Entity source = event.getSource().getEntity();
 
-        if (source instanceof PlayerEntity) {
-            PlayerEntity player = (PlayerEntity) source;
+        if (source instanceof Player player) {
             ItemStack heldStack = player.getMainHandItem();
 
-            if (heldStack.getItem() instanceof ModularItem) {
-                ModularItem item = (ModularItem) heldStack.getItem();
+            if (heldStack.getItem() instanceof ModularItem item) {
                 int level = item.getEffectLevel(heldStack, frostnip);
                 int bitelevel = item.getEffectLevel(heldStack, FrostbiteEffect.frostbite);
 
                 if (level > 0 && bitelevel == 0) {
-                    event.getEntityLiving().addEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 600, 1));
+                    event.getEntityLiving().addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 1));
 //                    player.sendMessage(new StringTextComponent("Applied Slowness 1"), player.getUUID());
                 }
             }
