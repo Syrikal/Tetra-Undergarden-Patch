@@ -19,7 +19,7 @@
         "default"
     ],
     "material": {
-        "item": "undergarden:cloggrum_ingot"
+        "items": [ "undergarden:cloggrum_ingot" ]
     },
     "requiredTools": {
         "hammer": 3
