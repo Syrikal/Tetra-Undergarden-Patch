@@ -14,12 +14,12 @@
         "undergardenpatch/rotbane": 0
     },
     "tints": {
-        "glyph": "d76559",
-        "texture": "d76559"
+        "glyph": "9c3832",
+        "texture": "9c3832"
     },
     "textures": [
-        "metal",
-        "default"
+        "shiny",
+        "crude"
     ],
     "material": {
         "item": "undergarden:utherium_ingot"

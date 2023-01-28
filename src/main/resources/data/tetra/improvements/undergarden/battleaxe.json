@@ -2,7 +2,7 @@
   {
     "key": "undergardenpatch/forgottenbattleaxe",
     "attributes": {
-      "generic.attack_speed": 0.6,
+      "generic.attack_speed": 0.5,
       "generic.attack_damage": -1.5
     },
     "effects": {

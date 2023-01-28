@@ -7,7 +7,10 @@
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/cloggrum"],
       "double/head_right": ["double/butt_right", "butt/cloggrum"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
+    },
+    "improvements": {
+      "double/handle:basic_handle/sturdy_grip": 0
     }
   },
   {
@@ -18,10 +21,11 @@
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/froststeel"],
       "double/head_right": ["double/butt_right", "butt/froststeel"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/frostbite": 0
+      "double/head_left:undergardenpatch/frostbite": 0,
+      "double/handle:basic_handle/frosted_grip": 0
     }
   },
   {
@@ -32,10 +36,11 @@
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/utherium"],
       "double/head_right": ["double/butt_right", "butt/utherium"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
     },
     "improvements": {
-      "double/head_left:undergardenpatch/rotbane": 0
+      "double/head_left:undergardenpatch/rotbane": 0,
+      "double/handle:basic_handle/corroded_grip": 0
     }
   },
   {
@@ -46,11 +51,12 @@
     "modules": {
       "double/head_left": ["double/basic_axe_left", "basic_axe/forgotten"],
       "double/head_right": ["double/butt_right", "butt/forgotten"],
-      "double/handle": ["double/basic_handle", "basic_handle/stick"]
+      "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
     },
     "improvements": {
       "double/head_left:undergardenpatch/threnody": 0,
-      "double/head_left:undergardenpatch/undermine": 0
+      "double/head_left:undergardenpatch/undermine": 0,
+      "double/handle:basic_handle/echoing_grip": 0
     }
   },
   {
@@ -68,7 +74,8 @@
       "double/head_left:undergardenpatch/undermine": 0,
       "double/head_right:undergardenpatch/threnody": 0,
       "double/head_right:undergardenpatch/undermine": 0,
-      "double/handle:undergardenpatch/forgottenbattleaxe": 0
+      "double/handle:undergardenpatch/forgottenbattleaxe": 0,
+      "double/handle:basic_handle/echoing_haft": 0
     }
   },
   {
@@ -82,7 +89,8 @@
       "double/handle": ["double/basic_handle", "basic_handle/smogstem"]
     },
     "improvements": {
-      "double/handle:undergardenpatch/cloggrumbattleaxe": 0
+      "double/handle:undergardenpatch/cloggrumbattleaxe": 0,
+      "double/handle:basic_handle/sturdy_haft": 0
     }
   }
 ]

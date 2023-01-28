@@ -1,0 +1,8 @@
+[
+    {
+        "key": "elaborate/corroded_pick",
+        "models": [{
+            "location": "tetra:items/module/double/head/basic_pickaxe/corroded"
+        }]
+    }
+]

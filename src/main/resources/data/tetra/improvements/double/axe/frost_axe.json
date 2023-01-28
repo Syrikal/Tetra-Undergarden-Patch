@@ -1,0 +1,8 @@
+[
+    {
+        "key": "elaborate/frost_axe",
+        "models": [{
+            "location": "tetra:items/module/double/head/frost"
+        }]
+    }
+]

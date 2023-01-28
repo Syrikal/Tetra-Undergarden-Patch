@@ -1,0 +1,8 @@
+[
+    {
+        "key": "basic_handle/sturdy_grip",
+        "models": [{
+            "location": "tetra:items/module/single/handle/improvements/sturdy_grip"
+        }]
+    }
+]

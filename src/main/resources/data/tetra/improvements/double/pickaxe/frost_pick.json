@@ -1,0 +1,8 @@
+[
+    {
+        "key": "elaborate/frost_pick",
+        "models": [{
+            "location": "tetra:items/module/double/head/basic_pickaxe/frost"
+        }]
+    }
+]

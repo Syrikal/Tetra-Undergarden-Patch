@@ -1,0 +1,8 @@
+[
+    {
+        "key": "basic_hilt/sturdy_grip",
+        "models": [{
+            "location": "tetra:items/module/sword/hilt/basic/improvements/sturdy_grip"
+        }]
+    }
+]

@@ -1,0 +1,24 @@
+{
+    "key": "under_stick",
+    "category": "misc",
+    "primary": "2",
+    "secondary": "0.5",
+    "tertiary": "5.5",
+    "durability": "40",
+    "integrityCost": "1",
+    "integrityGain": "3",
+    "magicCapacity": "90",
+    "toolLevel": "0",
+    "toolEfficiency": "0",
+    "tints": {
+        "glyph": "484f4e",
+        "texture": "484f4e"
+    },
+    "textures": [
+        "crude",
+        "default"
+    ],
+    "material": {
+        "item": "minecraft:stick"
+    }
+}
