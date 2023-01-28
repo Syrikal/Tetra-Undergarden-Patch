@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "improvements": [
+    "tetra:undergarden/rotbane",
+    "tetra:undergarden/frostbite",
+    "tetra:undergarden/threnody",
+    "tetra:undergarden/undermine"
+  ]
+}

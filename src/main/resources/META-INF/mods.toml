@@ -5,11 +5,11 @@ license="MIT"
 [[mods]] #mandatory
 modId="undergardenpatch" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="Undergarden-Tetra Patch" #mandatory
+displayName="Tetra/Undergarden Patch" #mandatory
 credits="Thanks for this mod goes to mickelus of Tetra and quek of the Undergarden, for writing all the code I Frankensteined together, and for the help they gave along the way." #optional
 authors="Syric" #optional
 description='''
-This mod adds Undergarden materials to Tetra, including their effects. Requires Tetra 3.4.0+ and the Undergarden 0.4.0+.
+This mod adds Undergarden materials to Tetra, including their effects. Requires Tetra 4.10.1+ and the Undergarden 0.7.1+.
 '''
 
 [[dependencies.undergardenpatch]] #optional
@@ -23,5 +23,17 @@ This mod adds Undergarden materials to Tetra, including their effects. Requires 
     modId="minecraft"
     mandatory=true
     versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.undergardenpatch]]
+    modId="tetra"
+    mandatory=true
+    versionRange="[4.10.1,)"
+    ordering="AFTER"
+    side="BOTH"
+[[dependencies.undergardenpatch]]
+    modId="undergarden"
+    mandatory=true
+    versionRange="[0.7.1,)"
     ordering="NONE"
     side="BOTH"

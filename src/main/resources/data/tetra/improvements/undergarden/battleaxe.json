@@ -1,0 +1,21 @@
+[
+  {
+    "key": "undergardenpatch/forgottenbattleaxe",
+    "attributes": {
+      "generic.attack_speed": 0.6,
+      "generic.attack_damage": -1.5
+    },
+    "effects": {
+      "undergardenpatch:forgottenbattleaxe": 1
+    }
+  },
+  {
+    "key": "undergardenpatch/cloggrumbattleaxe",
+    "attributes": {
+      "generic.attack_speed": 0.4
+    },
+    "effects": {
+      "undergardenpatch:cloggrumbattleaxe": 1
+    }
+  }
+]
