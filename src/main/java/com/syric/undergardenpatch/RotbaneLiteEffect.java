@@ -1,8 +1,8 @@
 package com.syric.undergardenpatch;
 
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import quek.undergarden.registry.UGTags;
@@ -25,12 +25,10 @@ public class RotbaneLiteEffect {
         Entity source = event.getSource().getEntity();
         float damage = event.getAmount();
 
-        if (source instanceof PlayerEntity) {
-            PlayerEntity player = (PlayerEntity) source;
+        if (source instanceof Player player) {
             ItemStack heldStack = player.getMainHandItem();
 
-            if (heldStack.getItem() instanceof ModularItem) {
-                ModularItem item = (ModularItem) heldStack.getItem();
+            if (heldStack.getItem() instanceof ModularItem item) {
                 int level = item.getEffectLevel(heldStack, rotbane_lite);
                 boolean forgor = item.getEffectLevel(heldStack, ThrenodyEffect.threnody) > 0 || item.getEffectLevel(heldStack, ThrenodyLiteEffect.threnody_lite) > 0;
                 boolean rotbane = item.getEffectLevel(heldStack, RotbaneEffect.rotbane) > 0;

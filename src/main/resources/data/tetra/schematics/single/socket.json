@@ -3,7 +3,7 @@
     "outcomes": [
         {
             "material": {
-                "item": "undergarden:froststeel_nugget"
+                "items": ["undergarden:froststeel_nugget"]
             },
             "experienceCost": 2,
             "moduleKey": "single/socket",
@@ -11,7 +11,7 @@
         },
         {
             "material": {
-                "item": "undergarden:forgotten_nugget"
+                "items": ["undergarden:forgotten_nugget"]
             },
             "experienceCost": 5,
             "moduleKey": "single/socket",
@@ -19,7 +19,7 @@
         },
         {
             "material": {
-                "item": "undergarden:utherium_chunk"
+                "items": ["undergarden:utheric_shard"]
             },
             "experienceCost": 3,
             "moduleKey": "single/socket",

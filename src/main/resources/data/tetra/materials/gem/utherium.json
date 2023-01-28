@@ -14,10 +14,11 @@
         "undergardenpatch/rotbane": 0
     },
     "tints": {
-        "glyph": "d76559",
-        "texture": "d76559"
+        "glyph": "c3434c",
+        "texture": "c3434c"
     },
     "textures": [
+        "shiny",
         "metal",
         "default"
     ],

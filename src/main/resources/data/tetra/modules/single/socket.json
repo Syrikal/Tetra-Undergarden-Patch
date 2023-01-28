@@ -38,7 +38,7 @@
         },
         {
             "key": "single_socket/utherium",
-            "category": "metal",
+            "category": "gem",
             "integrity": -1,
             "effects": {
                 "undergardenpatch:rotbane_lite": 1
