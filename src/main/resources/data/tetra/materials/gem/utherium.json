@@ -1,6 +1,6 @@
 {
     "key": "utherium",
-    "category": "metal",
+    "category": "gem",
     "primary": 6.5,
     "secondary": 3.5,
     "tertiary": 3.2,
@@ -22,7 +22,7 @@
         "default"
     ],
     "material": {
-        "items": [ "undergarden:utherium_ingot" ]
+        "items": [ "undergarden:utherium_crystal" ]
     },
     "requiredTools": {
         "hammer_dig": "minecraft:iron"
