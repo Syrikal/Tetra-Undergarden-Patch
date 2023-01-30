@@ -5,6 +5,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.registries.ForgeRegistries;
 import se.mickelus.tetra.effect.ItemEffect;
 import se.mickelus.tetra.items.modular.ModularItem;
 
@@ -34,7 +35,9 @@ public class ThrenodyLiteEffect {
                 boolean forgor = item.getEffectLevel(heldStack, ThrenodyEffect.threnody) > 0;
                 boolean rotbane = item.getEffectLevel(heldStack, RotbaneEffect.rotbane) > 0;
 
-                if (level > 0 && !forgor && !rotbane && Objects.requireNonNull(event.getEntityLiving().getType().getRegistryName()).getNamespace().equals("undergarden") && event.getEntityLiving().canChangeDimensions()) {
+                boolean isUndergarden = Objects.requireNonNull(ForgeRegistries.ENTITY_TYPES.getKey(event.getEntity().getType())).getNamespace().equals("undergarden");
+
+                if (level > 0 && !forgor && !rotbane && isUndergarden && event.getEntity().canChangeDimensions()) {
                     event.setAmount(damage * 1.25F);
 //                    player.sendMessage(new StringTextComponent("2x Damage to Undergarden Denizens"), player.getUUID());
                 }

@@ -12,9 +12,8 @@ import se.mickelus.tetra.items.modular.impl.ModularDoubleHeadedItem;
 public class RenderBattleaxe {
 
     public static void renderBattleaxe(RenderPlayerEvent event) {
-        if (event.getPlayer().getMainHandItem().getItem() instanceof ModularDoubleHeadedItem) {
-            ModularDoubleHeadedItem item = (ModularDoubleHeadedItem) event.getPlayer().getMainHandItem().getItem();
-            if (item.getEffectLevel(event.getPlayer().getMainHandItem(), ItemEffect.get("undergardenpatch:forgottenbattleaxe")) > 0) {
+        if (event.getEntity().getMainHandItem().getItem() instanceof ModularDoubleHeadedItem item) {
+            if (item.getEffectLevel(event.getEntity().getMainHandItem(), ItemEffect.get("undergardenpatch:forgottenbattleaxe")) > 0) {
                 UndergardenPatch.LOGGER.info("Detected rendering a forgotten battleaxe in main hand in third person");
                 //change model of held item?
             }
@@ -23,9 +22,8 @@ public class RenderBattleaxe {
 
     public static void renderBattleaxeFirstPerson(RenderHandEvent event) {
 //        UndergardenPatch.LOGGER.info("Rendering an arm in first person");
-        if (event.getItemStack().getItem() instanceof ModularDoubleHeadedItem) {
+        if (event.getItemStack().getItem() instanceof ModularDoubleHeadedItem item) {
 //            UndergardenPatch.LOGGER.info("Rendering a modular double item");
-            ModularDoubleHeadedItem item = (ModularDoubleHeadedItem) event.getItemStack().getItem();
             if (item.getEffectLevel(event.getItemStack(), ItemEffect.get("undergardenpatch:forgottenbattleaxe")) > 0) {
                 UndergardenPatch.LOGGER.info("Detected rendering a forgotten battleaxe in main hand in first person");
                 //change model of held item?

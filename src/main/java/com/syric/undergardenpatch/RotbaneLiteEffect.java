@@ -34,7 +34,7 @@ public class RotbaneLiteEffect {
                 boolean rotbane = item.getEffectLevel(heldStack, RotbaneEffect.rotbane) > 0;
 
                 if (level > 0 && !forgor && !rotbane) {
-                    if(event.getEntityLiving().getType().is(UGTags.Entities.ROTSPAWN)) {
+                    if(event.getEntity().getType().is(UGTags.Entities.ROTSPAWN)) {
                         event.setAmount(damage * 1.25F);
 //                        player.sendMessage(new StringTextComponent("150% damage to Rotspawn"), player.getUUID());
                         //event.getEntityLiving().setFire(1); //A very visible way to check if the effect is activating properly

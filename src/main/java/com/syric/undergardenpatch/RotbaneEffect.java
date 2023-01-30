@@ -33,7 +33,7 @@ public class RotbaneEffect {
                 boolean forgor = item.getEffectLevel(heldStack, ThrenodyEffect.threnody) > 0;
 
                 if (level > 0 && !forgor) {
-                    if(event.getEntityLiving().getType().is(UGTags.Entities.ROTSPAWN)) {
+                    if(event.getEntity().getType().is(UGTags.Entities.ROTSPAWN)) {
                         event.setAmount(damage * 1.5F);
 //                        player.sendMessage(new StringTextComponent("150% damage to Rotspawn"), player.getUUID());
                         //event.getEntityLiving().setFire(1); //A very visible way to check if the effect is activating properly

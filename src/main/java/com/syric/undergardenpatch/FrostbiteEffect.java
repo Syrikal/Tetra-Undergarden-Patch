@@ -32,7 +32,7 @@ public class FrostbiteEffect {
                 int level = item.getEffectLevel(heldStack, frostbite);
 
                 if (level > 0) {
-                    event.getEntityLiving().addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 2));
+                    event.getEntity().addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 2));
                     //player.sendMessage(new StringTextComponent("Applied Slowness 2"), player.getUUID());
                 }
             }

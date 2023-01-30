@@ -32,7 +32,7 @@ public class FrostnipEffect {
                 int bitelevel = item.getEffectLevel(heldStack, FrostbiteEffect.frostbite);
 
                 if (level > 0 && bitelevel == 0) {
-                    event.getEntityLiving().addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 1));
+                    event.getEntity().addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 600, 1));
 //                    player.sendMessage(new StringTextComponent("Applied Slowness 1"), player.getUUID());
                 }
             }
