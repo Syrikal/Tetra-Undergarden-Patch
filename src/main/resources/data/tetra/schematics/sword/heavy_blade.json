@@ -1,0 +1,13 @@
+{
+  "replace":false,
+  "outcomes":[
+    {
+      "materials":[
+        "tetra:gem/utherium"
+      ],
+      "countFactor":3,
+      "moduleKey":"sword/heavy_blade",
+      "moduleVariant":"heavy_blade/"
+    }
+  ]
+}
