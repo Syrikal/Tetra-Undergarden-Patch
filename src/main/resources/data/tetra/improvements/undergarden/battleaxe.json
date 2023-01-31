@@ -3,7 +3,8 @@
     "key": "undergardenpatch/forgottenbattleaxe",
     "attributes": {
       "generic.attack_speed": 0.3,
-      "generic.attack_damage": -0.33
+      "generic.attack_damage": -0.33,
+      "generic.attack_knockback": 4
     },
     "effects": {
       "undergardenpatch:forgottenbattleaxe": 1
@@ -13,7 +14,8 @@
     "key": "undergardenpatch/cloggrumbattleaxe",
     "attributes": {
       "generic.attack_speed": 0.3,
-      "generic.attack_damage": 0.17
+      "generic.attack_damage": 0.17,
+      "generic.attack_knockback": 4
     },
     "effects": {
       "undergardenpatch:cloggrumbattleaxe": 1
