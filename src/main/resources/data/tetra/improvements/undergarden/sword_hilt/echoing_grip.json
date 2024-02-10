@@ -2,7 +2,7 @@
     {
         "key": "basic_hilt/echoing_grip",
         "models": [{
-            "location": "tetra:items/module/sword/hilt/basic/improvements/echoing_grip"
+            "location": "tetra:item/module/sword/hilt/basic/improvements/echoing_grip"
         }]
     }
 ]

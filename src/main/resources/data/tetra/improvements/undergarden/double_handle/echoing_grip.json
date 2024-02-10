@@ -2,7 +2,7 @@
     {
         "key": "basic_handle/echoing_grip",
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/echoing_grip"
+            "location": "tetra:item/module/double/handle/basic/improvements/echoing_grip"
         }]
     }
 ]

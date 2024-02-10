@@ -1,6 +1,7 @@
 {
   "replace": false,
   "improvements": [
-    "tetra:undergarden/battleaxe"
+    "tetra:undergarden/battleaxe",
+    "tetra:undergarden/double_handle/"
   ]
 }

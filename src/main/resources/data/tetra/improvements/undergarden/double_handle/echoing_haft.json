@@ -1,0 +1,10 @@
+[
+    {
+        "key": "basic_handle/echoing_haft",
+        "models": [
+            {
+                "location": "tetra:item/module/double/handle/basic/improvements/echoing_haft"
+            }
+        ]
+    }
+]

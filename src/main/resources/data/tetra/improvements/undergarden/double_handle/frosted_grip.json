@@ -2,7 +2,7 @@
     {
         "key": "basic_handle/frosted_grip",
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/frosted_grip"
+            "location": "tetra:item/module/double/handle/basic/improvements/frosted_grip"
         }]
     }
 ]

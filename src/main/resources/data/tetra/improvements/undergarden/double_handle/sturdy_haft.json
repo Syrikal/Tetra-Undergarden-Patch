@@ -2,7 +2,7 @@
     {
         "key": "basic_handle/sturdy_haft",
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/sturdy_haft"
+            "location": "tetra:item/module/double/handle/basic/improvements/sturdy_haft"
         }]
     }
 ]

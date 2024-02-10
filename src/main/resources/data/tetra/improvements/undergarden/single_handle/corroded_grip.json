@@ -2,7 +2,7 @@
     {
         "key": "basic_handle/corroded_grip",
         "models": [{
-            "location": "tetra:items/module/double/handle/basic/improvements/corroded_grip"
+            "location": "tetra:item/module/single/handle/improvements/corroded_grip"
         }]
     }
 ]

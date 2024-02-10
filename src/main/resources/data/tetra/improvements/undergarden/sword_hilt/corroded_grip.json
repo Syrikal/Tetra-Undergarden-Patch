@@ -2,7 +2,7 @@
     {
         "key": "basic_hilt/corroded_grip",
         "models": [{
-            "location": "tetra:items/module/sword/hilt/basic/improvements/corroded_grip"
+            "location": "tetra:item/module/sword/hilt/basic/improvements/corroded_grip"
         }]
     }
 ]
