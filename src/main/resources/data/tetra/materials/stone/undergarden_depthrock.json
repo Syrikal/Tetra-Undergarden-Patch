@@ -1,5 +1,5 @@
 {
-    "key": "depthrock",
+    "key": "undergarden_depthrock",
     "category": "stone",
     "primary": 4,
     "secondary": 3.5,
@@ -20,9 +20,17 @@
         "default"
     ],
     "material": {
-        "items": [ "undergarden:depthrock" ]
+        "items": [
+            "undergarden:depthrock"
+        ]
     },
     "requiredTools": {
         "hammer_dig": "minecraft:wood"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }

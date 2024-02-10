@@ -1,0 +1,37 @@
+{
+    "key": "socket_undergarden_forgotten",
+    "hidden": true,
+    "category": "socket",
+    "primary": 0,
+    "secondary": 0,
+    "tertiary": 0,
+    "durability": 0.0,
+    "integrityCost": 1,
+    "integrityGain": 0,
+    "magicCapacity": 0,
+    "toolLevel": 0,
+    "toolEfficiency": 0,
+    "effects": {
+        "undergardenpatch:threnody_lite": 1,
+        "undergardenpatch:undermine_lite": 1
+    },
+    "tints": {
+        "glyph": "28ab8a",
+        "texture": "28ab8a"
+    },
+    "textures": [
+        "default"
+    ],
+    "experienceCost": 5,
+    "material": {
+        "items": [
+            "undergarden:forgotten_nugget"
+        ]
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
+}

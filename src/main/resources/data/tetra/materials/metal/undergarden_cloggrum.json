@@ -1,5 +1,5 @@
 {
-    "key": "cloggrum",
+    "key": "undergarden_cloggrum",
     "category": "metal",
     "primary": 6,
     "secondary": 2.9,
@@ -19,9 +19,17 @@
         "default"
     ],
     "material": {
-        "items": ["undergarden:cloggrum_ingot"]
+        "items": [
+            "undergarden:cloggrum_ingot"
+        ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
-    }
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }

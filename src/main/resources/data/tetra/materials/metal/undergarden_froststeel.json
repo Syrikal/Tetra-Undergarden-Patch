@@ -1,5 +1,5 @@
 {
-    "key": "froststeel",
+    "key": "undergarden_froststeel",
     "category": "metal",
     "primary": 5,
     "secondary": 4,
@@ -23,9 +23,17 @@
         "default"
     ],
     "material": {
-        "items": ["undergarden:froststeel_ingot"]
+        "items": [
+            "undergarden:froststeel_ingot"
+        ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:gold"
-    }
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }

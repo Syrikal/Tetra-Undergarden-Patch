@@ -1,5 +1,5 @@
 {
-    "key": "shiverstone",
+    "key": "undergarden_shiverstone",
     "category": "stone",
     "primary": 4.2,
     "secondary": 4,
@@ -20,9 +20,17 @@
         "default"
     ],
     "material": {
-        "items": [ "undergarden:shiverstone" ]
+        "items": [
+            "undergarden:shiverstone"
+        ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:stone"
-    }
+        "hammer_dig": "minecraft:gold"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }

@@ -1,9 +1,9 @@
 {
-    "key": "wigglewood",
+    "key": "undergarden_wigglewood",
     "category": "wood",
     "primary": 3,
     "secondary": 1.5,
-    "tertiary": 7.5,
+    "tertiary": 6.4,
     "durability": 59,
     "integrityCost": 1,
     "integrityGain": 4,
@@ -19,9 +19,17 @@
         "wooden"
     ],
     "material": {
-        "items": [ "undergarden:wigglewood_planks" ]
+        "items": [
+            "undergarden:wigglewood_planks"
+        ]
     },
     "requiredTools": {
         "axe_dig": "minecraft:wood"
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }

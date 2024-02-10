@@ -1,12 +1,12 @@
 {
-    "key": "utherium",
+    "key": "undergarden_utherium",
     "category": "gem",
     "primary": 6.5,
     "secondary": 3.5,
     "tertiary": 3.2,
     "durability": 1279,
     "integrityCost": 2,
-    "integrityGain": 7,
+    "integrityGain": 6,
     "magicCapacity": 102,
     "toolLevel": "minecraft:diamond",
     "toolEfficiency": 8.5,
@@ -23,9 +23,17 @@
         "default"
     ],
     "material": {
-        "items": [ "undergarden:utherium_crystal" ]
+        "items": [
+            "undergarden:utherium_crystal"
+        ]
     },
     "requiredTools": {
-        "hammer_dig": "minecraft:iron"
-    }
+        "hammer_dig": "minecraft:stone"
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }
