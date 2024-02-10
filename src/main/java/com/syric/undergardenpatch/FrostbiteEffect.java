@@ -18,8 +18,8 @@ public class FrostbiteEffect {
     public static final ItemEffect frostbite = ItemEffect.get("undergardenpatch:frostbite");
 
     /**
-     * Event handler which checks if the mainhand item has our item effect
      * @param event
+     * Event handler which checks if the mainhand item has our item effect
      */
     @SubscribeEvent
     public void attackEvent(LivingHurtEvent event) {

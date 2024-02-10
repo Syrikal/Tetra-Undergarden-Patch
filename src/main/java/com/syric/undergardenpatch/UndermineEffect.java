@@ -14,8 +14,8 @@ public class UndermineEffect {
     public static final ItemEffect undermine = ItemEffect.get("undergardenpatch:undermine");
 
     /**
-     * Event handler which checks if the mainhand item has our item effect
      * @param event
+     * Event handler which checks if the mainhand item has our item effect
      */
     @SubscribeEvent
     public void mineEvent(PlayerEvent.BreakSpeed event) {

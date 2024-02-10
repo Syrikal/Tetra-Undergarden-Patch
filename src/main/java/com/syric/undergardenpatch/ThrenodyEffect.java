@@ -19,8 +19,8 @@ public class ThrenodyEffect {
     public static final ItemEffect threnody = ItemEffect.get("undergardenpatch:threnody");
 
     /**
-     * Event handler which checks if the mainhand item has our item effect
      * @param event
+     * Event handler which checks if the mainhand item has our item effect
      */
     @SubscribeEvent
     public void attackEvent(LivingHurtEvent event) {

@@ -17,8 +17,8 @@ public class FrostnipEffect {
     public static final ItemEffect frostnip = ItemEffect.get("undergardenpatch:frostnip");
 
     /**
-     * Event handler which checks if the mainhand item has our item effect
      * @param event
+     * Event handler which checks if the mainhand item has our item effect
      */
     @SubscribeEvent
     public void attackEvent(LivingHurtEvent event) {

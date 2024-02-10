@@ -17,8 +17,8 @@ public class RotbaneLiteEffect {
     private static final ItemEffect rotbane_lite = ItemEffect.get("undergardenpatch:rotbane_lite");
 
     /**
-     * Event handler which checks if the mainhand item has our item effect
      * @param event
+     * Event handler which checks if the mainhand item has our item effect
      */
     @SubscribeEvent
     public void attackEvent(LivingHurtEvent event) {
