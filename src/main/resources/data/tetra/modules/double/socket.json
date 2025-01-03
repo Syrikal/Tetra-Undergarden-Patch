@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "improvements": [
+    "tetra:undergarden/frostnip",
+    "tetra:undergarden/undermine_lite",
+    "tetra:undergarden/threnody_lite",
+    "tetra:undergarden/rotbane_lite"
+  ]
+}

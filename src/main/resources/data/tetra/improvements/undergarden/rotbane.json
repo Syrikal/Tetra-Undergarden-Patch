@@ -4,5 +4,11 @@
     "effects": {
       "undergardenpatch:rotbane": 1
     }
+  },
+  {
+    "key": "undergardenpatch/rotbane_lite",
+    "effects": {
+      "undergardenpatch:rotbane_lite": 1
+    }
   }
 ]

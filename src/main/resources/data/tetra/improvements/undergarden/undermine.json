@@ -4,5 +4,11 @@
         "effects": {
             "undergardenpatch:undermine": 1
         }
+    },
+    {
+        "key": "undergardenpatch/undermine_lite",
+        "effects": {
+            "undergardenpatch:undermine_lite": 1
+        }
     }
 ]

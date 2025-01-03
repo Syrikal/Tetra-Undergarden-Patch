@@ -4,5 +4,11 @@
     "effects": {
       "undergardenpatch:threnody": 1
     }
+  },
+  {
+    "key": "undergardenpatch/threnody_lite",
+    "effects": {
+      "undergardenpatch:threnody_lite": 1
+    }
   }
 ]
