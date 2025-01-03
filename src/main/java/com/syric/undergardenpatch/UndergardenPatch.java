@@ -5,6 +5,7 @@ import net.minecraftforge.client.event.RenderHandEvent;
 import net.minecraftforge.client.event.RenderPlayerEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -23,6 +24,15 @@ public class UndergardenPatch {
         MinecraftForge.EVENT_BUS.register(new ThrenodyLiteEffect());
         MinecraftForge.EVENT_BUS.register(new UndermineEffect());
         MinecraftForge.EVENT_BUS.register(new UndermineLiteEffect());
+
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(FrostbiteEffect::addBars);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(FrostnipEffect::addBars);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(RotbaneEffect::addBars);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(RotbaneLiteEffect::addBars);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ThrenodyEffect::addBars);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(ThrenodyLiteEffect::addBars);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(UndermineEffect::addBars);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(UndermineLiteEffect::addBars);
 
 //        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
