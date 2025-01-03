@@ -5,11 +5,20 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
-import net.minecraft.util.text.StringTextComponent;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import se.mickelus.tetra.blocks.workbench.gui.WorkbenchStatsGui;
 import se.mickelus.tetra.effect.ItemEffect;
+import se.mickelus.tetra.gui.stats.bar.GuiStatBar;
+import se.mickelus.tetra.gui.stats.getter.IStatGetter;
+import se.mickelus.tetra.gui.stats.getter.LabelGetterBasic;
+import se.mickelus.tetra.gui.stats.getter.StatGetterEffectLevel;
+import se.mickelus.tetra.gui.stats.getter.TooltipGetterNone;
 import se.mickelus.tetra.items.modular.ModularItem;
+import se.mickelus.tetra.items.modular.impl.holo.gui.craft.HoloStatsGui;
 
 /**
  * Implementation of a slowing effect.
@@ -36,9 +45,17 @@ public class FrostnipEffect {
 
                 if (level > 0 && bitelevel == 0) {
                     event.getEntityLiving().addEffect(new EffectInstance(Effects.MOVEMENT_SLOWDOWN, 600, 1));
-//                    player.sendMessage(new StringTextComponent("Applied Slowness 1"), player.getUUID());
                 }
             }
         }
+    }
+
+    @OnlyIn(Dist.CLIENT)
+    public static void addBars(FMLClientSetupEvent event) {
+        IStatGetter frostnipGetter = new StatGetterEffectLevel(frostnip, 1.0);
+        GuiStatBar frostnipBar = new GuiStatBar(0, 0, 59, "tetra.stats.frostnip", 0.0, 1.0, false, frostnipGetter, LabelGetterBasic.noLabel, new TooltipGetterNone("tetra.stats.frostnip.tooltip"));
+
+        WorkbenchStatsGui.addBar(frostnipBar);
+        HoloStatsGui.addBar(frostnipBar);
     }
 }
