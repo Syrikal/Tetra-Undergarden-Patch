@@ -1,13 +1,13 @@
 {
-    "key": "undergarden_grongle",
+    "key": "grongle",
     "category": "wood",
     "primary": "2.6",
     "secondary": "1.4",
-    "tertiary": "6.9",
-    "durability": "250",
+    "tertiary": "6",
+    "durability": "131",
     "integrityCost": "1",
     "integrityGain": "5",
-    "magicCapacity": "102",
+    "magicCapacity": "90",
     "toolLevel": "1",
     "toolEfficiency": "3",
     "tints": {
@@ -22,12 +22,6 @@
         "item": "undergarden:grongle_planks"
     },
     "requiredTools": {
-        "axe": 2
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "undergarden"
-        }
-    ]
+        "axe": 1
+    }
 }

@@ -1,5 +1,5 @@
 {
-    "key": "undergarden_cloggrum",
+    "key": "cloggrum",
     "category": "metal",
     "primary": "7",
     "secondary": "2.9",
@@ -23,11 +23,5 @@
     },
     "requiredTools": {
         "hammer": 3
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "undergarden"
-        }
-    ]
+    }
 }

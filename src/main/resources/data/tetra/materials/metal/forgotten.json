@@ -1,12 +1,12 @@
 {
-    "key": "undergarden_forgotten_metal",
+    "key": "forgotten",
     "category": "metal",
     "primary": "9",
     "secondary": "4.3",
     "tertiary": "3",
     "durability": "1565",
     "integrityCost": "2",
-    "integrityGain": "7",
+    "integrityGain": "9",
     "magicCapacity": "1",
     "toolLevel": "5",
     "toolEfficiency": "10",
@@ -27,11 +27,5 @@
     },
     "requiredTools": {
         "hammer": 4
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "undergarden"
-        }
-    ]
+    }
 }

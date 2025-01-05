@@ -1,9 +1,9 @@
 {
-    "key": "undergarden_wigglewood",
+    "key": "wigglewood",
     "category": "wood",
     "primary": "3",
     "secondary": "1.5",
-    "tertiary": "6.4",
+    "tertiary": "7.5",
     "durability": "59",
     "integrityCost": "1",
     "integrityGain": "4",
@@ -23,11 +23,5 @@
     },
     "requiredTools": {
         "axe": 1
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "undergarden"
-        }
-    ]
+    }
 }

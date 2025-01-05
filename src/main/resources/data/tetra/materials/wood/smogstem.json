@@ -1,12 +1,12 @@
 {
-    "key": "undergarden_smogstem",
+    "key": "smogstem",
     "category": "wood",
     "primary": "3",
-    "secondary": "2.3",
+    "secondary": "1.7",
     "tertiary": "6",
-    "durability": "512",
+    "durability": "59",
     "integrityCost": "2",
-    "integrityGain": "6",
+    "integrityGain": "5",
     "magicCapacity": "90",
     "toolLevel": "2",
     "toolEfficiency": "4",
@@ -22,12 +22,6 @@
         "item": "undergarden:smogstem_planks"
     },
     "requiredTools": {
-        "axe": 3
-    },
-    "conditions": [
-        {
-            "type": "forge:mod_loaded",
-            "modid": "undergarden"
-        }
-    ]
+        "axe": 1
+    }
 }

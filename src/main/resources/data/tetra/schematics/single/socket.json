@@ -2,46 +2,28 @@
     "replace": false,
     "outcomes": [
         {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "undergarden"
-                }
-            ],
-            "material": {
-                "item": "undergarden:forgotten_nugget"
-            },
-            "experienceCost": 5,
-            "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/undergarden_forgotten"
-        },
-        {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "undergarden"
-                }
-            ],
             "material": {
                 "item": "undergarden:froststeel_nugget"
             },
             "experienceCost": 2,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/undergarden_froststeel"
+            "moduleVariant": "single_socket/froststeel"
         },
         {
-            "conditions": [
-                {
-                    "type": "forge:mod_loaded",
-                    "modid": "undergarden"
-                }
-            ],
             "material": {
-                "item": "undergarden:utheric_shard"
+                "item": "undergarden:forgotten_nugget"
+            },
+            "experienceCost": 5,
+            "moduleKey": "single/socket",
+            "moduleVariant": "single_socket/forgotten"
+        },
+        {
+            "material": {
+                "item": "undergarden:utherium_chunk"
             },
             "experienceCost": 3,
             "moduleKey": "single/socket",
-            "moduleVariant": "single_socket/undergarden_utherium"
+            "moduleVariant": "single_socket/utherium"
         }
     ]
 }
