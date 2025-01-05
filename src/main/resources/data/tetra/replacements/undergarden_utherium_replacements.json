@@ -1,0 +1,149 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:utherium_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/undergarden_utherium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/undergarden_utherium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "double/head_left:undergardenpatch/rotbane": 0,
+            "double/handle:basic_handle/corroded_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:utherium_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/undergarden_utherium"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/undergarden_utherium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "double/handle:basic_handle/corroded_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:utherium_pickaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/undergarden_utherium"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/undergarden_utherium"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "double/handle:basic_handle/corroded_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:utherium_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/undergarden_utherium"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "single/handle:basic_handle/corroded_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:utherium_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/undergarden_utherium"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/undergarden_smogstem"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/undergarden_utherium"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/undergarden_utherium"
+            ]
+        },
+        "improvements": {
+            "sword/blade:undergardenpatch/rotbane": 0,
+            "sword/hilt:basic_hilt/corroded_grip": 0
+        }
+    }
+]

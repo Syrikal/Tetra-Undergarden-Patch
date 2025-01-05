@@ -1,5 +1,5 @@
 {
-    "key": "froststeel",
+    "key": "undergarden_froststeel",
     "category": "metal",
     "primary": "6",
     "secondary": "4",
@@ -27,5 +27,11 @@
     },
     "requiredTools": {
         "hammer": 3
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }

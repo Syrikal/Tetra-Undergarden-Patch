@@ -2,26 +2,15 @@
     "replace": false,
     "variants": [
         {
-            "key": "single_socket/froststeel",
-            "category": "metal",
-            "integrity": -1,
-            "effects": {
-                "undergardenpatch:frostnip": 1
-            },
-            "glyph": {
-                "tint": "6988b0",
-                "textureX": 80,
-                "textureY": 16
-            },
-            "models": [{
-                "location": "tetra:items/module/single/binding/socket/default",
-                "tint": "6988b0"
-            }]
-        },
-        {
-            "key": "single_socket/forgotten",
-            "category": "metal",
-            "integrity": -1,
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "undergarden"
+                }
+            ],
+            "key": "single_socket/undergarden_forgotten",
+            "category": "gem",
+            "integrity": 1,
             "effects": {
                 "undergardenpatch:threnody_lite": 1,
                 "undergardenpatch:undermine_lite": 1
@@ -31,15 +20,48 @@
                 "textureX": 80,
                 "textureY": 16
             },
-            "models": [{
-                "location": "tetra:items/module/single/binding/socket/default",
-                "tint": "28ab8a"
-            }]
+            "models": [
+                {
+                    "location": "tetra:items/module/single/binding/socket/default",
+                    "tint": "28ab8a"
+                }
+            ]
         },
         {
-            "key": "single_socket/utherium",
-            "category": "metal",
-            "integrity": -1,
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "undergarden"
+                }
+            ],
+            "key": "single_socket/undergarden_froststeel",
+            "category": "gem",
+            "integrity": 1,
+            "effects": {
+                "undergardenpatch:frostnip": 1
+            },
+            "glyph": {
+                "tint": "6988b0",
+                "textureX": 80,
+                "textureY": 16
+            },
+            "models": [
+                {
+                    "location": "tetra:items/module/single/binding/socket/default",
+                    "tint": "6988b0"
+                }
+            ]
+        },
+        {
+            "conditions": [
+                {
+                    "type": "forge:mod_loaded",
+                    "modid": "undergarden"
+                }
+            ],
+            "key": "single_socket/undergarden_utherium",
+            "category": "gem",
+            "integrity": 1,
             "effects": {
                 "undergardenpatch:rotbane_lite": 1
             },
@@ -48,10 +70,12 @@
                 "textureX": 80,
                 "textureY": 16
             },
-            "models": [{
-                "location": "tetra:items/module/single/binding/socket/default",
-                "tint": "9c3832"
-            }]
+            "models": [
+                {
+                    "location": "tetra:items/module/single/binding/socket/default",
+                    "tint": "9c3832"
+                }
+            ]
         }
     ]
 }

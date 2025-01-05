@@ -1,5 +1,5 @@
 {
-    "key": "shiverstone",
+    "key": "undergarden_shiverstone",
     "category": "stone",
     "primary": "4.2",
     "secondary": "4",
@@ -24,5 +24,11 @@
     },
     "requiredTools": {
         "hammer": 2
-    }
+    },
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "undergarden"
+        }
+    ]
 }

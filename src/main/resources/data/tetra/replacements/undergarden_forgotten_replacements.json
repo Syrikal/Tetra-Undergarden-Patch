@@ -1,0 +1,188 @@
+[
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:forgotten_axe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/undergarden_forgotten_metal"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/undergarden_forgotten_metal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "double/head_left:undergardenpatch/threnody": 0,
+            "double/head_left:undergardenpatch/undermine": 0,
+            "double/handle:basic_handle/echoing_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:forgotten_battleaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_axe_left",
+                "basic_axe/undergarden_forgotten_metal"
+            ],
+            "double/head_right": [
+                "double/basic_axe_right",
+                "basic_axe/undergarden_forgotten_metal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "double/handle:undergardenpatch/forgotten_battleaxe": 0,
+            "double/handle:basic_handle/echoing_haft": 0,
+            "double/head_left:undergardenpatch/threnody": 0,
+            "double/head_left:undergardenpatch/undermine": 0,
+            "double/head_right:undergardenpatch/threnody": 0,
+            "double/head_right:undergardenpatch/undermine": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:forgotten_hoe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/hoe_left",
+                "hoe/undergarden_forgotten_metal"
+            ],
+            "double/head_right": [
+                "double/butt_right",
+                "butt/undergarden_forgotten_metal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "double/head_left:undergardenpatch/undermine": 0,
+            "double/handle:basic_handle/echoing_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:forgotten_pickaxe"
+        },
+        "item": "tetra:modular_double",
+        "modules": {
+            "double/head_left": [
+                "double/basic_pickaxe_left",
+                "basic_pickaxe/undergarden_forgotten_metal"
+            ],
+            "double/head_right": [
+                "double/basic_pickaxe_right",
+                "basic_pickaxe/undergarden_forgotten_metal"
+            ],
+            "double/handle": [
+                "double/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "double/head_left:undergardenpatch/undermine": 0,
+            "double/head_right:undergardenpatch/undermine": 0,
+            "double/handle:basic_handle/echoing_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:forgotten_shovel"
+        },
+        "item": "tetra:modular_single",
+        "modules": {
+            "single/head": [
+                "single/basic_shovel",
+                "basic_shovel/undergarden_forgotten_metal"
+            ],
+            "single/handle": [
+                "single/basic_handle",
+                "basic_handle/undergarden_smogstem"
+            ]
+        },
+        "improvements": {
+            "single/head:undergardenpatch/undermine": 0,
+            "single/handle:basic_handle/echoing_grip": 0
+        }
+    },
+    {
+        "conditions": [
+            {
+                "type": "forge:mod_loaded",
+                "modid": "undergarden"
+            }
+        ],
+        "predicate": {
+            "item": "undergarden:forgotten_sword"
+        },
+        "item": "tetra:modular_sword",
+        "modules": {
+            "sword/blade": [
+                "sword/basic_blade",
+                "basic_blade/undergarden_forgotten_metal"
+            ],
+            "sword/hilt": [
+                "sword/basic_hilt",
+                "basic_hilt/undergarden_smogstem"
+            ],
+            "sword/pommel": [
+                "sword/decorative_pommel",
+                "decorative_pommel/undergarden_forgotten_metal"
+            ],
+            "sword/guard": [
+                "sword/makeshift_guard",
+                "makeshift_guard/undergarden_forgotten_metal"
+            ]
+        },
+        "improvements": {
+            "sword/blade:undergardenpatch/threnody": 0,
+            "sword/hilt:basic_hilt/echoing_grip": 0
+        }
+    }
+]
