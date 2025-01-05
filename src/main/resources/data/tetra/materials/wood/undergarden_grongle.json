@@ -11,8 +11,8 @@
     "toolLevel": "minecraft:wood",
     "toolEfficiency": 3,
     "tints": {
-        "glyph": "1f7f1d",
-        "texture": "1f7f1d"
+        "glyph": "555e36",
+        "texture": "555e36"
     },
     "textures": [
         "crude",
