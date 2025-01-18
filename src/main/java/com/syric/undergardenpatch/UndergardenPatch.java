@@ -5,6 +5,7 @@ import net.minecraftforge.client.event.RenderHandEvent;
 import net.minecraftforge.client.event.RenderPlayerEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -25,20 +26,22 @@ public class UndergardenPatch {
         MinecraftForge.EVENT_BUS.register(new UndermineEffect());
         MinecraftForge.EVENT_BUS.register(new UndermineLiteEffect());
 
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(FrostbiteEffect::addBars);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(FrostnipEffect::addBars);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(RotbaneEffect::addBars);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(RotbaneLiteEffect::addBars);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(ThrenodyEffect::addBars);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(ThrenodyLiteEffect::addBars);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(UndermineEffect::addBars);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(UndermineLiteEffect::addBars);
-
-//        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::addBars);
 
     }
 
-//    private void doClientStuff(final FMLClientSetupEvent event) {
+    private void addBars(final FMLClientSetupEvent event) {
+        FrostbiteEffect.addBars(event);
+        FrostnipEffect.addBars(event);
+        RotbaneEffect.addBars(event);
+        RotbaneLiteEffect.addBars(event);
+        ThrenodyEffect.addBars(event);
+        ThrenodyLiteEffect.addBars(event);
+        UndermineEffect.addBars(event);
+        UndermineLiteEffect.addBars(event);
+    }
+
+//    private void renderBattleaxeSetup(final FMLClientSetupEvent event) {
 //        MinecraftForge.EVENT_BUS.addListener(this::renderBattleaxeListener);
 //        MinecraftForge.EVENT_BUS.addListener(this::renderBattleaxe1pListener);
 //    }
